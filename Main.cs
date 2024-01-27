@@ -7,7 +7,7 @@ namespace CS161_Practice4
             InitializeComponent();
         }
 
-        private void TestScoreButton_Click(object sender, EventArgs e)
+        private void testScoreButton_Click(object sender, EventArgs e)
         {
 
         }
@@ -17,7 +17,7 @@ namespace CS161_Practice4
 
         }
 
-        private void loanQualifierButton_Click(object sender, EventArgs e)
+        private void loanQualiferButton_Click(object sender, EventArgs e)
         {
 
         }
