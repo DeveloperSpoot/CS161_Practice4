@@ -1,3 +1,5 @@
+using CS161_Practice4.Tutorials;
+
 namespace CS161_Practice4
 {
     public partial class Main : Form
@@ -9,7 +11,8 @@ namespace CS161_Practice4
 
         private void testScoreButton_Click(object sender, EventArgs e)
         {
-
+            TestAverage form = new TestAverage();
+            form.Show();
         }
 
         private void payrollOvertimeButton_Click(object sender, EventArgs e)
