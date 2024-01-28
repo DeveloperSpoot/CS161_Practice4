@@ -78,7 +78,8 @@ namespace CS161_Practice4
 
         private void bookClubButton_Click(object sender, EventArgs e)
         {
-
+            Book_Club_Points form = new Book_Club_Points();
+            form.Show();
         }
     }
 }
