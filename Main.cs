@@ -35,7 +35,8 @@ namespace CS161_Practice4
 
         private void colorThemeButton_Click(object sender, EventArgs e)
         {
-
+            ColorTheme form = new ColorTheme();
+            form.Show();
         }
 
         private void timeZoneButton_Click(object sender, EventArgs e)
