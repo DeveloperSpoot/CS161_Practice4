@@ -29,7 +29,8 @@ namespace CS161_Practice4
 
         private void fuelEconomyButton_Click(object sender, EventArgs e)
         {
-
+            FuelEcon form = new FuelEcon();
+            form.Show();
         }
 
         private void colorThemeButton_Click(object sender, EventArgs e)
