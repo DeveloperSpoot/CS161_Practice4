@@ -72,7 +72,8 @@ namespace CS161_Practice4
 
         private void distanceConverterButton_Click(object sender, EventArgs e)
         {
-
+            Distance_Converter form = new Distance_Converter();
+            form.Show();
         }
 
         private void bookClubButton_Click(object sender, EventArgs e)
