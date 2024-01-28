@@ -23,7 +23,8 @@ namespace CS161_Practice4
 
         private void loanQualiferButton_Click(object sender, EventArgs e)
         {
-
+            LoanQualifier form = new LoanQualifier();
+            form.Show();
         }
 
         private void fuelEconomyButton_Click(object sender, EventArgs e)
