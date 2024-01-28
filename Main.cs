@@ -1,3 +1,4 @@
+using CS161_Practice4.ProgrammingProblems;
 using CS161_Practice4.Tutorials;
 
 namespace CS161_Practice4
@@ -47,7 +48,8 @@ namespace CS161_Practice4
 
         private void romanNumeralButton_Click(object sender, EventArgs e)
         {
-
+            Roman_Numeral form = new Roman_Numeral();
+            form.Show();
         }
 
         private void massWeightButton_Click(object sender, EventArgs e)
