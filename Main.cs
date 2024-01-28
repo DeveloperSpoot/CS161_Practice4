@@ -17,7 +17,8 @@ namespace CS161_Practice4
 
         private void payrollOvertimeButton_Click(object sender, EventArgs e)
         {
-
+            PayrollOvertime payrollOvertime = new PayrollOvertime();
+            payrollOvertime.Show();
         }
 
         private void loanQualiferButton_Click(object sender, EventArgs e)
