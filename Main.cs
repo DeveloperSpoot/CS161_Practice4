@@ -41,7 +41,8 @@ namespace CS161_Practice4
 
         private void timeZoneButton_Click(object sender, EventArgs e)
         {
-
+            Time_Zones form = new Time_Zones();
+            form.Show();
         }
 
         private void romanNumeralButton_Click(object sender, EventArgs e)
