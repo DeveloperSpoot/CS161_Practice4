@@ -54,7 +54,8 @@ namespace CS161_Practice4
 
         private void massWeightButton_Click(object sender, EventArgs e)
         {
-
+            Mass_and_Weight form = new Mass_and_Weight();
+            form.Show();
         }
 
         private void magicDateButton_Click(object sender, EventArgs e)
